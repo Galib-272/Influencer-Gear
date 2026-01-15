@@ -85,9 +85,9 @@
   gap: 133px;
 }
 /* logo styles */
-.logo-container{
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    margin: 69px auto;
+.logo-container {
+  margin: 69px auto;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
 }
