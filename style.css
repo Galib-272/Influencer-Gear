@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  color: #3a3a3a;
+}
+/* navbar styles */
+.nav-links img {
+  height: 24px;
+  width: 24px;
+}
+.nav-text h1 {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.nav-links ul {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.nav-links {
+  display: flex;
+  gap: 34px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1400px;
+  align-items: center;
+  padding: 0px 110px;
+}
+/* main camera styles */
+.main-camera img {
+  width: 475px;
+  height: 475px;
+  background-image: url(./images/Circle\ design.svg);
+}
+.journey-text1 h1 {
+  font-size: 52px;
+}
+.journey-text2 {
+  font-weight: 600;
+  margin: 16px 0px;
+}
+.btn-1 {
+  font-weight: 700;
+  border: none;
+  background-color: #e02c6d;
+}
+.btn-1 a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 41px;
+}
+.arrow {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  left: 8px;
+  top: 2px;
+}
+.btn1-and-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e02c6d;
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.main-camera-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  gap: 133px;
+}
+/* logo styles */
+.logo-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 69px auto;
+}
