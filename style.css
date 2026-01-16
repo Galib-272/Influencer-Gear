@@ -128,8 +128,44 @@
   height: 256px;
   border-radius: 5px;
 }
-.card-section {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 110px;
+.see-more {
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  margin-right: 220px;
+}
+.see-more p {
+  color: #e02c6d;
+  font-weight: 700;
+}
+#pink-arrow {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  left: 8px;
+  top: 5px;
+}
+/* featured products section */
+.featured-title h2 {
+  color: #0a0826;
+  font-size: 38px;
+}
+.featured-title .btn-1 {
+  padding: 15px;
+  font-weight: 700;
+}
+.featured-title img {
+  position: relative;
+  left: 8px;
+  top: 3px;
+}
+.featured-title p{
+  margin: 16px 0px;
+}
+.featured-container{
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  align-items: center;
+  margin: 100px auto;
 }
