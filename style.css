@@ -51,12 +51,9 @@
   font-weight: 700;
   border: none;
   background-color: #e02c6d;
-}
-.btn-1 a {
   text-decoration: none;
   color: white;
-  padding: 20px;
-  border-radius: 41px;
+  display: inline-block;
 }
 .arrow {
   width: 16px;
@@ -66,7 +63,7 @@
   top: 2px;
 }
 .btn1-and-logo {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   gap: 8px;
   background-color: #e02c6d;
@@ -76,6 +73,7 @@
   border-radius: 50px;
   font-weight: 700;
   font-size: 16px;
+  margin-top: 16px;
 }
 .main-camera-section {
   display: flex;
@@ -173,13 +171,12 @@
 .footer-section {
   background-color: #0a0826;
   padding: 50px 0px;
-
 }
 .footer-container h2,
 .footer-container p {
   color: white;
 }
-.footer-logos{
+.footer-logos {
   width: 32px;
   height: 32px;
   display: flex;
@@ -187,10 +184,77 @@
   margin: 17px auto 0px auto;
   justify-content: center;
 }
-.footer-container p{
-  color: #D9DBE1;
+.footer-container p {
+  color: #d9dbe1;
   margin: 5px 0px;
 }
-.footer-container{
+.footer-container {
   text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .nav-text h1 {
+    margin-bottom: 20px;
+  }
+  .main-camera-section {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .main-camera img {
+    background-repeat: no-repeat;
+  }
+  .journey-text1 h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .journey-text2,
+  .journey-text1 {
+    text-align: center;
+  }
+  .btn1-and-logo {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 16px 32px;
+    background-color: #e02c6d;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .logo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    padding: 0 20px;
+    margin: 50px auto;
+  }
+  .logo-container img {
+    width: 60px;
+    height: auto;
+  }
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-img {
+    padding: 25px;
+  }
+  .see-more {
+    margin-right: 15px;
+  }
+  .featured-container {
+    flex-direction: column-reverse;
+    margin: 50px 0px;
+    gap: 50px;
+  }
+  .featured-title {
+    text-align: center;
+  }
 }
